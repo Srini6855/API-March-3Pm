@@ -289,6 +289,79 @@ Query Parameter:
  Eg: GET https://api.example.com/users?age=25&gender=male.
  Here, age=25 and gender=male is Query Parameters, used to filter results.
 
+Variables:
+----------
+
+
+1. Collection
+2. Environment
+3. Global
+
+
+Collection variables:
+---------------------
+
+-> It is applicable for particular collection
+
+Environment variables:
+----------------------
+
+-> It is accesbile for all collection but specific environment
+
+Global variables:
+-------------------
+
+-> It is common for all collection and all environment
+
+
+
+Read values from postman response body:
+---------------------------------------
+
+javascript:
+-----------
+
+let a = 10;
+let, var, const
+int a = 10;
+System.out.println();
+Console.log();
+
+pm -> postman
+response -> outcome response
+json() -> json body
+
+let response = pm.response.json();
+let message = response.message;
+Console.log(message);
+
+
+let response = pm.response.json();
+let message = response.message;
+console.log(message);
+let id = response.data.id;
+console.log(id);
+pm.collectionVariables.set("Flightid",id);
+
+
+Different types of environment:
+--------------------------------
+
+www.amazon.com
+
+www.amazon.dev.com
+
+www.amazon.qa.com
+
+www.amazon.com
+
+
+String a = "java";
+
+String - Data type
+a - variable name or reference
+java - value
+
 
 Authentication:
 ---------------
