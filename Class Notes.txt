@@ -363,6 +363,21 @@ a - variable name or reference
 java - value
 
 
+Run As Collection:
+------------------
+
+-> To run the whole collection in a single go
+
+Data driven testing:
+--------------------
+
+{
+    "flightName": "{{flightName}}",
+    "Country": "{{Country}}",
+    "Destinations": "{{Destinations}}",
+    "URL": "{{URLS}}"
+}
+
 Authentication:
 ---------------
 
@@ -370,6 +385,10 @@ Authentication:
  Verifying identity (Who are you?).
  Confirms that a user/system is valid.
  We have methods like - Passwords, API keys, OAuth1 & 2, JWT, Basic.
+
+-> Basic authentication
+
+	Username and password
 
 Authorization:
 --------------
