@@ -437,3 +437,73 @@ o 500 – Series // Server side error
 
 
 
+JSON Object:
+
+- A JSON object is an unordered collection of key and value pairs.
+- Keys are unique Strings that cannot be null.
+- Values can be anything form like Boolean, number and String.
+- JSON Object can be represented by a String enclosed within curly braces with keys and values represented by a colon and pair separated by a comma.
+
+JSON = JSON Object + JSON Array
+
+JSON Object:
+
+- Key value - Map.
+- k - String, Ignore Duplicates and null values.
+- Value - anytype
+
+
+Dependency - json - simple - version 1.1.1
+
+
+Read values from JSON:
+
+- src/test/resources
+	Create a file with .json extension
+
+Employye.json
+
+{
+
+"name":"Bala",
+"email":"bala123@gmail.com",
+"phoneNo":8925811159,
+"course":"java",
+"payment": true
+
+}
+
+{
+
+"name":"Bala",
+"email":"bala123@gmail.com",
+"phoneNo":8925811159,
+"address":{
+	"streetName":"AK Streer",
+	"district":"Chennai",
+	"state":"Tamil Nadu"
+}
+}
+
+
+
+JSON Array:
+
+- JSON array represents order list of values, JSON array can store multiple values.
+- It can store string, name, number, Boolean or objects.
+- In JSON array, values must be separated by comma.
+- The square bracket represents JSON array.
+
+
+{
+
+"name":"Bala",
+"email":"bala123@gmail.com",
+"phoneNo":8925811159,
+"course": [ "java", "SQL", "API", "Selenium"]
+
+}
+
+
+Smple
+
