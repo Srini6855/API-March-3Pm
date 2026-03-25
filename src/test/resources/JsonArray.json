@@ -1,0 +1,25 @@
+{
+	"o ": [
+		{
+			"id": "A1",
+			"name": "Jim",
+			"math": 60,
+			"physics": 66,
+			"chemistry": 61
+		},
+		{
+			"id": "A2",
+			"name": "Dwight",
+			"math": 89,
+			"physics": 76,
+			"chemistry": 51
+		},
+		{
+			"id": "A3",
+			"name": "Kevin",
+			"math": 79,
+			"physics": 90,
+			"chemistry": 78
+		}
+	]
+}
