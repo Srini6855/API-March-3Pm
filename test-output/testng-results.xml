@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-30T16:16:05 IST" name="Default suite" finished-at="2026-03-30T16:16:08 IST" duration-ms="3032">
+  <suite started-at="2026-03-31T16:20:18 IST" name="Default suite" finished-at="2026-03-31T16:20:20 IST" duration-ms="2736">
     <groups>
     </groups>
-    <test started-at="2026-03-30T16:16:05 IST" name="Default test" finished-at="2026-03-30T16:16:08 IST" duration-ms="3032">
+    <test started-at="2026-03-31T16:20:18 IST" name="Default test" finished-at="2026-03-31T16:20:20 IST" duration-ms="2736">
       <class name="org.apiautomation.SampleAPI">
-        <test-method signature="createFlight()[pri:0, instance:org.apiautomation.SampleAPI@70e8f8e]" started-at="2026-03-30T16:16:05 IST" name="createFlight" finished-at="2026-03-30T16:16:07 IST" duration-ms="2473" status="PASS">
+        <test-method signature="createFlight()[pri:0, instance:org.apiautomation.SampleAPI@5c30a9b0]" started-at="2026-03-31T16:20:18 IST" name="createFlight" finished-at="2026-03-31T16:20:20 IST" duration-ms="2692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createFlight -->
-        <test-method signature="updateFlight()[pri:0, instance:org.apiautomation.SampleAPI@70e8f8e]" started-at="2026-03-30T16:16:07 IST" name="updateFlight" finished-at="2026-03-30T16:16:08 IST" duration-ms="514" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateFlight -->
       </class> <!-- org.apiautomation.SampleAPI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
